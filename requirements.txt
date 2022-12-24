@@ -1,0 +1,8 @@
+numpy~=1.18.5
+pandas~=1.0.5
+torch~=1.4.0
+transformers~=2.4.1
+scikit-learn~=0.22.2.post1
+pyconll~=2.2.1
+nltk~=3.4.5
+funcy~=1.14
