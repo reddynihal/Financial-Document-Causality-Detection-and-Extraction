@@ -1,10 +1,21 @@
-#Multi-headed transformer based approach to Causality Detection and Extraction in Financial Text
-
 ### Token classifier
 
 ##### Input
-conll format
-Labels in the 4th column.
+conll format (tab separated file, each line a token) , labels in the 4th column.
+```
+1       Transat _       E       _       _       _       _       _       _
+2       loss    _       E       _       _       _       _       _       _
+3       more    _       E       _       _       _       _       _       _
+4       than    _       E       _       _       _       _       _       _
+5       doubles _       E       _       _       _       _       _       _
+6       as      _       _       _       _       _       _       _       _
+7       it      _       C       _       _       _       _       _       _
+8       works   _       C       _       _       _       _       _       _
+9       to      _       C       _       _       _       _       _       _
+10      complete        _       C       _       _       _       _       _       _
+11      Air     _       C       _       _       _       _       _       _
+12      Canada  _       C       _       _       _       _       _       _
+13      deal    _       C       _       _       _       _       _       _
 
 ```
 ##### Parameters
